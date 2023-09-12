@@ -23,4 +23,4 @@ RUN apt-get update && apt-get install -y docker-ce-cli
 USER jenkins
 
 # Install Jenkins plugins (you can keep the plugin versions from your original Dockerfile)
-RUN jenkins-plugin-cli --plugins "blueocean:1.25.7 docker-workflow:1.28
+RUN jenkins-plugin-cli --plugins "blueocean:1.25.7 docker-workflow:1.28"
