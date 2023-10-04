@@ -54,6 +54,12 @@ https://localhost:8080/
 ## Installation Reference:
 https://www.jenkins.io/doc/book/installing/docker/
 
+## Get into the Jenkins Docker Container:
+```
+docker exec -it jenkins-blueocean bash
+cd /var/jenkins_home
+cd workspace
+```
 
 ## alpine/socat container to forward traffic from Jenkins to Docker Desktop on Host Machine
 
